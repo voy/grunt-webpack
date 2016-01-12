@@ -6,6 +6,7 @@
   "author": {
     "name": "Tobias Koppers @sokra"
   },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git@github.com:webpack/grunt-webpack.git"
@@ -14,7 +15,11 @@
     "url": "https://github.com/webpack/grunt-webpack/issues"
   },
   "dependencies": {
-    "lodash": "~1.2.0"
+    "lodash.isarray": "^3.0.4",
+    "lodash.isfunction": "^3.0.6",
+    "lodash.isstring": "^3.0.1",
+    "lodash.map": "^3.1.4",
+    "lodash.merge": "^3.3.2"
   },
   "peerDependencies": {
     "webpack": "1.x",
